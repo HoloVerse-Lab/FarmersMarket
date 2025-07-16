@@ -1,0 +1,17 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.ProductWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 8rem;
+}
+
+.ProductCard{
+    background: #e1e1e1;
+    padding: 2rem;
+}
