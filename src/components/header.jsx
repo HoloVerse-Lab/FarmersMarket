@@ -1,8 +1,15 @@
 import "../css/header.css";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 
 const Header = ({Logo}) => {
+
+
+
+
+      const navigate = useNavigate();
+
+
 
 
 
@@ -10,7 +17,13 @@ const Header = ({Logo}) => {
         <div className="HeaderWrapper">
 
           
-           <img src={Logo} id='logo' />
+           <img src={Logo} id='logo'
+           
+           onClick={()=>{
+            navigate("/")
+           }}
+           
+           />
 
 
 

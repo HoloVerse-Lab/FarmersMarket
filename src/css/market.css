@@ -24,6 +24,24 @@ img {
 
 h2 {
     text-transform: uppercase;
-    background: #b2eec1;
-    padding: 14px;
+    
+    
+}
+
+button {
+    padding: 10px 10px;
+    background: rgb(43, 145, 65);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+
+
+#increment{
+
+position: absolute;
+top:90px;
+
+
 }

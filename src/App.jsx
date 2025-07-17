@@ -17,7 +17,7 @@ function App(){
      
      <Header 
      
-         Logo={logo}
+         Logo={logo} userName="andrettttttw" sirName="paul"
      />
    
 
