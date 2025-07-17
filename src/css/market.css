@@ -9,9 +9,21 @@ img {
     flex-wrap: wrap;
     gap: 4rem;
     margin-top: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .ProductCard{
-    background: #e1e1e1;
+    display: flex;
+    flex-flow: column;
+    background: #e6f1e4;
     padding: 2rem;
+    box-shadow: 12px 4px 14px 0.3px #ccc9c9;
+    color: #2e2b2b;
+    gap: 0.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    background: #b2eec1;
+    padding: 14px;
 }

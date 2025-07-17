@@ -17,7 +17,8 @@ import "../css/market.css";
                     <div className="ProductCard">
 
                      <img src={product.url} />
-                     <h1>{product.name}</h1>
+                     <h2>{product.name}</h2>
+                     <h4>{product.price} Kwacha</h4>
 
 
                     </div>
