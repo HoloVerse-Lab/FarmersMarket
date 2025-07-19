@@ -4,6 +4,7 @@ import logo from './images/logo.png';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import About from './pages/about.jsx';
 import Market from './pages/market.jsx';
+import Login from './components/login.jsx';
 
 function App(){
 
@@ -39,6 +40,12 @@ function App(){
                 element={<Market />}
 
                 />
+
+
+                <Route 
+                    path='/login'
+                    element={<Login />}
+               />
 
           </Routes>
 
